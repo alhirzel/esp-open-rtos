@@ -2,6 +2,8 @@
 
 # expected anyone using this library includes it as 'libfixmatrix/libfixmatrix.h'
 INC_DIRS += $(libfixmatrix_ROOT)..
+
+# uses pieces of libfixmath
 INC_DIRS += $(libfixmatrix_ROOT)../libfixmath
 
 # args for passing into compile rule generation
